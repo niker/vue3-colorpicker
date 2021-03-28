@@ -4,7 +4,7 @@
       <div class="bee-fk-colorPicker__header" v-if="advancePanelShow">
         <span style="cursor: pointer;" @click="onBack">
           <div class="back"></div>
-          <span>返回</span>
+          <span>Back</span>
         </span>
       </div>
       <compact @change="onCompactChange" v-if="!advancePanelShow" />
@@ -49,7 +49,7 @@
           @blur="onInputChange"
         />
         <div class="action" v-if="!disableClipboard">
-          <div class="copy-btn" ref="copyBtn">复制</div>
+          <div class="copy-btn" ref="copyBtn">Copy</div>
         </div>
       </div>
 

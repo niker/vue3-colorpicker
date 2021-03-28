@@ -5,7 +5,7 @@
         <div class="demo-col">
           <fk-color-picker v-model:color="color" />
           <div>
-            带复制功能的仿凡科拾色器
+            Imitated Fanke Color Picker with Copy Function
           </div>
         </div>
         <div class="demo-col">
@@ -15,13 +15,13 @@
             :display-current-color="false"
           />
           <div>
-            不带复制功能的仿凡科拾色器,且历史记录显示为圆状
+            Imitated Fanke color picker without copy function, and the history record is displayed as a circle
           </div>
         </div>
         <div class="demo-col">
           <chrome-color-picker v-model:color="color" :history-round="true" />
           <div>
-            仿谷歌浏览器拾色器
+            Imitation of Google Chrome Color Picker
           </div>
         </div>
       </div>
@@ -31,25 +31,25 @@
         <div class="demo-col">
           <ele-color-picker v-model:color="color" />
           <div>
-            仿element-ui 拾色器
+            Imitation element-ui color picker
           </div>
         </div>
         <div class="demo-col">
           <popu-color-picker v-model:color="color" />
           <div>
-            带弹出功能的拾色器
+            Color picker with pop-up function
           </div>
         </div>
         <div class="demo-col">
           <popu-color-picker v-model:color="color" mode="chrome" />
           <div>
-            带弹出功能的拾色器
+            Color picker with pop-up function
           </div>
         </div>
         <div class="demo-col">
           <popu-color-picker v-model:color="color" mode="ele" round />
           <div>
-            带弹出功能的拾色器
+            Color picker with pop-up function
           </div>
         </div>
       </div>
